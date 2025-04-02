@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+html,body{
+    height: 100%;
+    min-height: 100%;
+}
+
+*{
+    box-sizing: border-box;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+}
+
+.appLayout{
+    @apply grid h-dvh grid-rows-[auto_1fr_auto]
+}
+
+.animated-arrow {
+    transition: transform 0.3s ease-in-out;
+}
+.animated-arrow:hover {
+    transform: scale(1.2);
+}
+.animated-arrow:active {
+    transform: scale(0.9);
+}
+
+svg{
+    color:#000 !important;
+}
