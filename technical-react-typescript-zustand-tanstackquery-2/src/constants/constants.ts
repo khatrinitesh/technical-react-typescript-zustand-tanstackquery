@@ -1,4 +1,4 @@
-import { ArrowConfig, AuroraConfig, AutocompleteConfig, Avatar, BentoItem, ImageData, ImageItem, ImageItem1 } from "../interface";
+import { ArrowConfig, AuroraConfig, AutocompleteConfig, Avatar, BentoItem, ImageData, ImageItem, ImageItem1, NavLink } from "../interface";
 
 export const textImageData: ImageData[] = [
     {
@@ -68,4 +68,18 @@ export const images: ImageItem[] = [
 
 export const images1: ImageItem1[] = [
   { id: 1, src: "https://randomuser.me/api/portraits/men/1.jpg", alt: "Blurred Background" },
+];
+
+export const navLinks: NavLink[] = [
+  { label: 'Home', href: '#home' },
+  { label: 'About', href: '#about' },
+  { label: 'Services', href: '#services' },
+  { label: 'Contact', href: '#contact' },
+];
+
+export const listItems: ListItem[] = [
+  { text: 'Item 1' },
+  { text: 'Item 2' },
+  { text: 'Item 3' },
+  { text: 'Item 4' },
 ];

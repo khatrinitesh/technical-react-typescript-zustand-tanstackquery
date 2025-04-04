@@ -73,3 +73,31 @@ export interface ImageStore {
     src: string;
     alt: string;
   }
+
+  // TypeScript interface for component props
+export interface ImageWithBorderProps {
+  src: string;
+  alt: string;
+}
+
+export interface ImageWithFrameProps {
+  src: string;
+  alt: string;
+}
+
+export interface NavLink {
+  label: string;
+  href: string;
+}
+
+
+export interface BulletStore {
+  bulletColor: string;
+  setBulletColor: (color: string) => void;
+}
+
+export interface ListItem {
+  text: string;
+}
+
+
